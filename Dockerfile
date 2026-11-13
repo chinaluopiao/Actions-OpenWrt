@@ -18,4 +18,4 @@ RUN cd /tmp && \
     ldconfig && \
     rm -rf /tmp/mysql-5.0*
 
-CMD ["/bin/bash", "-c", "tail -f /dev/null""]
+CMD ["/bin/bash", "-c", "tail -f /dev/null"]
